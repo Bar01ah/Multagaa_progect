@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملتجأ | دليل المشاريع</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- زر الرجوع للصفحة السابقة -->
+<button type="button" class="back-btn" onclick="history.back()" aria-label="رجوع">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 12h14M12 5l7 7-7 7"/>
+  </svg>
+  <span>رجوع</span>
+</button>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-area">
+        <div class="logo-icon">م</div>
+        <div class="logo-text">
+          <h1>ملتجأ</h1>
+          <span>منصة الإبداع المنزلي اليمني</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="projects.html" class="active">المشاريع</a>
+        <a href="offers.html">العروض</a>
+        <a href="jobs.html">فرص العمل</a>
+        <a href="join.html">انضمي</a>
+        <a href="contact.html">تواصلي</a>
+      </nav>
+      <div class="header-actions">
+
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="تبديل الوضع">
+  <span id="theme-icon">🌙</span>
+  <span id="theme-text">الوضع الداكن</span>
+</button>
+
+        <a href="login.html" class="nav-login-btn">دخول</a>
+        <a href="join.html" class="btn-primary">سجّلي مشروعك</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container" style="padding-top: 2rem;">
+    <div class="features-bar">
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="ابحثي عن مشروع، منتج، أو محافظة...">
+      </div>
+      <div class="filter-tabs">
+        <span class="active">الكل</span>
+        <span>حلويات</span>
+        <span>شموع</span>
+        <span>خياطة</span>
+        <span>إكسسوارات</span>
+        <span>كونكريت</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="projects-section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <span class="section-eyebrow">دليل المنتجات والمحلات</span>
+          <h3>جميع المشاريع المنزلية</h3>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-img">
+            <img src="images/حلويات منزلية.jpg" alt="حلويات منزلية">
+            <span class="project-badge">⚡ تسليم فوري</span>
+            <button class="favorite">♡</button>
+          </div>
+          <div class="card-content">
+            <h4>حلويات منزلية</h4>
+            <div class="card-location">📍 صنعاء - حي حدة</div>
+            <p class="card-desc">كيك، معمول، وحلويات غربية بلمسة منزلية. مكونات طازجة وتوصيل سريع.</p>
+            <div class="card-footer">
+              <span class="price-range">٣٥ - ١٢٠ ر.س</span>
+              <span class="rating">★ ٤.٨ <small>(٢٤)</small></span>
+            </div>
+          </div>
+
+          
+        </article>
+
+        <article class="project-card">
+          <div class="card-img">
+            <img src="images/chaks.jpg" alt="جائوتات وخبز">
+            <span class="project-badge badge-olive">🚀 توصيل سريع</span>
+            <button class="favorite">♡</button>
+          </div>
+          <div class="card-content">
+            <h4>جائوتات وخبز</h4>
+            <div class="card-location">📍 الحديدة - شارع صنعاء</div>
+            <p class="card-desc">جائوتات وخبز منزلي طازج يومياً، بأنواع متعددة وبأسعار مناسبة.</p>
+            <div class="card-footer">
+              <span class="price-range">٢٠ - ١٠٠ ر.س</span>
+              <span class="rating">★ ٤.٩ <small>(٤١)</small></span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-img">
+            <img src="images/chocolate.jpg" alt="كيك الشوكولاتة">
+            <span class="project-badge badge-gold">✨ جديد</span>
+            <button class="favorite">♡</button>
+          </div>
+          <div class="card-content">
+            <h4>كيك الشوكولاتة</h4>
+            <div class="card-location">📍 عدن - المنصورة</div>
+            <p class="card-desc">كيك شوكولاتة فاخر بتصاميم فنية، مثالي للمناسبات وأعياد الميلاد.</p>
+            <div class="card-footer">
+              <span class="price-range">٨٠ - ٢٥٠ ر.س</span>
+              <span class="rating">★ ٤.٩ <small>(١٨)</small></span>
+            </div>
+          </div>
+        </article>
+<!-- مشروع 4: ديكورات وهدايا -->
+<div class="project-card">
+  <div class="card-img">
+    <span class="project-badge">جديد</span>
+    <button class="favorite" aria-label="إضافة للمفضلة">♡</button>
+    <img src="images/ديكورات.jpg" alt="لمسة فن للديكورات المنزليّة">
+  </div>
+  <div class="card-content">
+    <h4>لمسة فن للديكورات المنزليّة</h4>
+    <div class="card-location">📍 صنعاء - حدة</div>
+    <p class="card-desc">تصميم وتنفيذ قطع ديكور خشبية وهدايا مصنوعة يدوياً بإتقان ليضفي لمسة دافئة على منزلك.</p>
+    <div class="card-footer">
+      <div class="rating">★ 4.8 <small>(12)</small></div>
+      <div class="price-range">50 - 150 ر.س</div>
+    </div>
+  </div>
+</div>
+
+<!-- مشروع 5: مخبوزات وحلويات -->
+<div class="project-card">
+  <div class="card-img">
+    <span class="project-badge badge-rose">توصيل سريع</span>
+    <button class="favorite" aria-label="إضافة للمفضلة">♡</button>
+    <img src="images/مخبوزات.png" alt="حلى الجود للمخبوزات">
+  </div>
+  <div class="card-content">
+    <h4>حلى الجود للمخبوزات</h4>
+    <div class="card-location">📍 عدن - المنصورة</div>
+    <p class="card-desc">صنع أرقى أنواع الكيك والحلويات المنزلية بأجود المكونات وبلمسات إبداعية للمناسبات.</p>
+    <div class="card-footer">
+      <div class="rating">★ 4.9 <small>(18)</small></div>
+      <div class="price-range">80 - 250 ر.س</div>
+    </div>
+  </div>
+</div>
+
+<!-- مشروع 6: منتجات العناية -->
+<div class="project-card">
+  <div class="card-img">
+    <span class="project-badge badge-olive">طبيعي 100%</span>
+    <button class="favorite" aria-label="إضافة للمفضلة">♡</button>
+    <img src="images/منتجات الشعر.png" alt="نقاء الطبيعة للعناية">
+  </div>
+  <div class="card-content">
+    <h4>نقاء الطبيعة للعناية</h4>
+    <div class="card-location">📍 تعز - الروضة</div>
+    <p class="card-desc">خلطات وزيوت طبيعية مستخلصة يدوياً للعناية بالبشرة والشعر خالية تماماً من المواد الكيميائية.</p>
+    <div class="card-footer">
+      <div class="rating">★ 4.9 <small>(41)</small></div>
+      <div class="price-range">30 - 120 ر.س</div>
+    </div>
+  </div>
+</div>
+
+<!-- مشروع 7: كروشيه -->
+<div class="project-card">
+  <div class="card-img">
+    <span class="project-badge">صنع بحب</span>
+    <button class="favorite" aria-label="إضافة للمفضلة">♡</button>
+    <img src="images/كروشيه.jpg" alt="غرزة ونسيج للكروشيه">
+  </div>
+  <div class="card-content">
+    <h4>غرزة ونسيج للكروشيه</h4>
+    <div class="card-location">📍 صنعاء - الأصبحي</div>
+    <p class="card-desc">مشغولات كروشيه يدوية مميزة، ملابس أطفال، ألعاب أميغورومي، ومفارش مصنوعة بخيوط عالمية عالية الجودة.</p>
+    <div class="card-footer">
+      <div class="rating">★ 5.0 <small>(24)</small></div>
+      <div class="price-range">40 - 180 ر.س</div>
+    </div>
+  </div>
+</div>
+
+<!-- مشروع 8: خياطة وأزياء -->
+<div class="project-card">
+  <div class="card-img">
+    <span class="project-badge badge-rose">تصاميم خاصة</span>
+    <button class="favorite" aria-label="إضافة للمفضلة">♡</button>
+    <img src="images/خياطة.jpg" alt="أنامل خياطة وخياطة رقية">
+  </div>
+  <div class="card-content">
+    <h4>أنامل خياطة للأزياء</h4>
+    <div class="card-location">📍 حضرموت - المكلا</div>
+    <p class="card-desc">تفصيل وتصميم فساتين وملابس نسائية وحفلات بأحدث الصيحات وبلمسات تراثية وعصرية راقية.</p>
+    <div class="card-footer">
+      <div class="rating">★ 4.9 <small>(32)</small></div>
+      <div class="price-range">120 - 450 ر.س</div>
+    </div>
+  </div>
+</div>
+
+<!-- مشروع 9: أعمال الريزن -->
+<div class="project-card">
+  <div class="card-img">
+    <span class="project-badge badge-olive">فن الريزن</span>
+    <button class="favorite" aria-label="إضافة للمفضلة">♡</button>
+    <img src="images/ريزن.jpg" alt="عالم الريزن للتحف والإكسسوارات">
+  </div>
+  <div class="card-content">
+    <h4>عالم الريزن للتحف</h4>
+    <div class="card-location">📍 إب - الشارع العام</div>
+    <p class="card-desc">صواني تقديم، فاصل كتب، وإكسسوارات مصنوعة من مادة الريزن الشفاف الممزوج بالزهور الطبيعية والذهب.</p>
+    <div class="card-footer">
+      <div class="rating">★ 4.8 <small>(15)</small></div>
+      <div class="price-range">60 - 220 ر.س</div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 منصة ملتجأ — جميع الحقوق محفوظة</span>
+        <span>صُنع بحب في اليمن 🇾🇪</span>
+      </div>
+    </div>
+  </footer>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملتجأ | الرئيسية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== نافذة الترحيب ===== -->
+<div class="welcome-overlay" id="welcomeOverlay">
+  <div class="welcome-modal">
+    <div class="welcome-glow"></div>
+    <div class="welcome-icon">🌿</div>
+    <h2 class="welcome-title">أهلاً وسهلاً بك</h2>
+    <p class="welcome-subtitle">في منصة ملتجأ</p>
+    <div class="welcome-divider"></div>
+    <p class="welcome-message">
+      نتشرّف بوجودك معنا اليوم، ونرحّب بك أجمل ترحيب
+      في رحلتك لمناقشة مشروعنا المتواضع.
+      <br><br>
+      نأمل أن ينال إعجابكم، وأن يكون عند حسن ظنّكم.
+    </p>
+    <button type="button" class="welcome-btn" id="welcomeBtn">
+      <span>ابدأ الاستكشاف</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+    </button>
+    <p class="welcome-footer">مع تحيات فريق <strong>ملتجأ</strong> 🤍</p>
+  </div>
+</div>
+
+
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-area">
+        <div class="logo-icon">م</div>
+        <div class="logo-text">
+          <h1>ملتجأ</h1>
+          <span>منصة الإبداع المنزلي اليمني</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="active">الرئيسية</a>
+        <a href="projects.html">المشاريع</a>
+        <a href="offers.html">العروض</a>
+        <a href="jobs.html">فرص العمل</a>
+        <a href="join.html">انضمي</a>
+        <a href="contact.html">تواصلي</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="تبديل الوضع">
+  <span id="theme-icon">🌙</span>
+  <span id="theme-text">الوضع الداكن</span>
+</button>
+
+        <a href="login.html" class="nav-login-btn">دخول</a>
+        <a href="join.html" class="btn-primary">سجّلي مشروعك</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-tag">✨ منصة يمنية للإبداع المنزلي</span>
+        <h2>كل <span>إبداع منزلي</span><br>يجد ملتجأه هنا</h2>
+        <p class="hero-desc">
+          منصة رقمية تجمع المشاريع المنزلية والتجارية الصغيرة في اليمن تحت سقف واحد:
+          الجائوتات، الحلويات، الشموع، الكونكريت، الخياطة، الإكسسوارات والأعمال اليدوية 
+          مع توفير فرص عمل وخدمات سريعة .
+        </p>
+
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn-primary btn-lg">تصفّحي المشاريع</a>
+          <a href="join.html" class="btn-ghost btn-lg">انضمي كمشروع</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">+٢٤٠</span>
+            <span class="stat-label">مشروع منزلي</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">١٢</span>
+            <span class="stat-label">محافظة يمنية</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">٤.٩ ★</span>
+            <span class="stat-label">تقييم العملاء</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+
+        <div class="hero-card hero-card-main">
+          <div class="hero-card-image">
+            <img src="images/حلويات منزلية.jpg" alt="حلويات منزلية">
+            <span class="hero-card-badge">🔥 الأكثر طلباً</span>
+          </div>
+          <div class="hero-card-side-info">
+            <span class="hero-card-category">حلويات منزلية</span>
+            <h4>كيك ومعمول بيتي</h4>
+            <div class="hero-card-meta">
+              <span class="hero-card-rating">★ ٤.٨</span>
+              <span class="hero-card-location">📍 صنعاء</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card hero-card-secondary">
+          <div class="hero-card-image">
+            <img src="images/chocolate.jpg" alt="كيك الشوكولاتة">
+          </div>
+          <div class="hero-card-side-info">
+            <span class="hero-card-category">كيك فاخر</span>
+            <h4>كيك الشوكولاتة</h4>
+            <div class="hero-card-meta">
+              <span class="hero-card-rating">★ ٤.٩</span>
+              <span class="hero-card-location">📍 عدن</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h3>هل لديك مشروع منزلي؟</h3>
+        <p>انضمي إلى منصة ملتجأ واعرضي منتجاتك لآلاف العملاء مجاناً.</p>
+      </div>
+      <a href="join.html" class="btn-dark btn-lg">ابدئي الآن مجاناً</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 منصة ملتجأ — جميع الحقوق محفوظة</span>
+        <span>صُنع بحب في اليمن 🇾🇪</span>
+      </div>
+    </div>
+  </footer>
+<script src="main.js"></script>
+</body>
+</html>

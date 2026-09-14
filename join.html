@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملتجأ | سجّلي مشروعك</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- زر الرجوع للصفحة السابقة -->
+<button type="button" class="back-btn" onclick="history.back()" aria-label="رجوع">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 12h14M12 5l7 7-7 7"/>
+  </svg>
+  <span>رجوع</span>
+</button>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-area">
+        <div class="logo-icon">م</div>
+        <div class="logo-text">
+          <h1>ملتجأ</h1>
+          <span>منصة الإبداع المنزلي اليمني</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="projects.html">المشاريع</a>
+        <a href="offers.html">العروض</a>
+        <a href="jobs.html">فرص العمل</a>
+        <a href="join.html" class="active">انضمي</a>
+        <a href="contact.html">تواصلي</a>
+      </nav>
+      <div class="header-actions">
+
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="تبديل الوضع">
+  <span id="theme-icon">🌙</span>
+  <span id="theme-text">الوضع الداكن</span>
+</button>
+
+
+        <a href="login.html" class="nav-login-btn">دخول</a>
+        <a href="join.html" class="btn-primary">سجّلي مشروعك</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="steps-section" style="padding: 4rem 0;">
+    <div class="container">
+      <div class="section-title center">
+        <div>
+          <span class="section-eyebrow">ابدئي رحلتك اليوم</span>
+          <h3>انضمي كمشروع في ٣ خطوات</h3>
+        </div>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-num">٠١</span>
+          <h4>أنشئي حسابك</h4>
+          <p>سجّلي مجاناً بمعلومات بسيطة، دون رسوم شهرية.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">٠٢</span>
+          <h4>أضيفي منتجاتك</h4>
+          <p>ارفعي الصور، الأسعار، ووصف المشروع بسهولة تامة.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">٠٣</span>
+          <h4>استقبلي الطلبات</h4>
+          <p>تواصلي مع العملاء مباشرة، وابنِ سمعة مشروعك بالتقييمات.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 منصة ملتجأ — جميع الحقوق محفوظة</span>
+        <span>صُنع بحب في اليمن 🇾🇪</span>
+      </div>
+    </div>
+  </footer>
+<script src="main.js"></script>
+</body>
+</html>

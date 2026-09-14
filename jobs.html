@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملتجأ | فرص العمل والشراكات</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- زر الرجوع للصفحة السابقة -->
+  <button type="button" class="back-btn" onclick="history.back()" aria-label="رجوع">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 12h14M12 5l7 7-7 7" />
+    </svg>
+    <span>رجوع</span>
+  </button>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-area">
+        <div class="logo-icon">م</div>
+        <div class="logo-text">
+          <h1>ملتجأ</h1>
+          <span>منصة الإبداع المنزلي اليمني</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="projects.html">المشاريع</a>
+        <a href="offers.html">العروض</a>
+        <a href="jobs.html" class="active">فرص العمل</a>
+        <a href="join.html">انضمي</a>
+        <a href="contact.html">تواصلي</a>
+      </nav>
+      <div class="header-actions">
+
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="تبديل الوضع">
+          <span id="theme-icon">🌙</span>
+          <span id="theme-text">الوضع الداكن</span>
+        </button>
+
+        <a href="login.html" class="nav-login-btn">دخول</a>
+        <a href="join.html" class="btn-primary">سجّلي مشروعك</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="jobs-section" style="padding: 4rem 0;">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <span class="section-eyebrow">فرص نمو للمبدعات</span>
+          <h3>وظائف وشراكات منزلية</h3>
+        </div>
+      </div>
+
+      <div class="jobs-grid">
+        <div class="job-card">
+          <span class="job-badge">دوام جزئي</span>
+          <h4>مساعدة طباخة حلويات</h4>
+          <p>مطلوب صانعة كيك ومخبوزات لمشروع منزلي متنامٍ في حدة.</p>
+          <div class="job-footer">
+            <span class="job-location">📍 صنعاء</span>
+            <a href="apply-job.html" class="btn-job">قدّمي الآن</a>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <span class="job-badge">عن بُعد</span>
+          <h4>مسؤولة تسويق وإدارة حسابات</h4>
+          <p>إدارة حسابات إنستغرام وتيك توك لمتجر إكسسوارات منزلية.</p>
+          <div class="job-footer">
+            <span class="job-location">📍 عدن / عن بُعد</span>
+            <a href="apply-job.html" class="btn-job">قدّمي الآن</a>
+          </div>
+        </div>
+
+        <!-- وظيفة 3 -->
+        <div class="job-card">
+          <div class="job-badge-wrapper">
+            <span class="job-badge">دوام جزئي</span>
+          </div>
+          <h3 class="job-title">مُدخلة بيانات ومتابعة طلبيات</h3>
+          <p class="job-desc">مطلوب مستقلة لإدارة وتنظيم جداول المبيعات والطلبات لمتاجر منزلية.</p>
+          <hr class="job-divider">
+          <div class="job-footer">
+            <span class="job-location">📍 عن بُعد</span>
+            <button class="apply-btn" type="button">قدّمي الآن</button>
+          </div>
+        </div>
+
+        <!-- وظيفة 4 -->
+        <div class="job-card">
+          <div class="job-badge-wrapper">
+            <span class="job-badge">بالعقد</span>
+          </div>
+          <h3 class="job-title">مصورة منتجات احترافية</h3>
+          <p class="job-desc">مطلوب مصورة لترتيب جلسة تصوير منتجات لمشروع خياطة وأزياء.</p>
+          <hr class="job-divider">
+          <div class="job-footer">
+            <span class="job-location">📍 صنعاء</span>
+            <button class="apply-btn" type="button">قدّمي الآن</button>
+          </div>
+        </div>
+
+        <!-- وظيفة 5 -->
+        <div class="job-card">
+          <div class="job-badge-wrapper">
+            <span class="job-badge">عن بُعد</span>
+          </div>
+          <h3 class="job-title">مصممة جرافيك وشعارات</h3>
+          <p class="job-desc">تصميم هوية بصرية وكروت إهداء وستيكرات لمشروع ريزن وكروشيه.</p>
+          <hr class="job-divider">
+          <div class="job-footer">
+            <span class="job-location">📍 تعز / عن بُعد</span>
+            <button class="apply-btn" type="button">قدّمي الآن</button>
+          </div>
+        </div>
+
+        <!-- وظيفة 6 -->
+        <div class="job-card">
+          <div class="job-badge-wrapper">
+            <span class="job-badge">دوام كامل</span>
+          </div>
+          <h3 class="job-title">مُشرفة تجهيز وتغليف طلبات</h3>
+          <p class="job-desc">المساعدة في تجهيز وتغليف الهدايا والمخبوزات المنزلية وتنسيق شحنها.</p>
+          <hr class="job-divider">
+          <div class="job-footer">
+            <span class="job-location">📍 عدن - المنصورة</span>
+            <button class="apply-btn" type="button">قدّمي الآن</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 منصة ملتجأ — جميع الحقوق محفوظة</span>
+        <span>صُنع بحب في اليمن 🇾🇪</span>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>

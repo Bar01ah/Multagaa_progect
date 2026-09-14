@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسجيل الدخول - ملتجا</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- زر الرجوع السريع -->
+  <button type="button" class="back-btn" onclick="history.back()" aria-label="رجوع">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+    <span>رجوع</span>
+  </button>
+
+  <main class="login-container">
+    <div class="login-card">
+      <div class="login-header">
+        <h2>تسجيل الدخول</h2>
+        <p>أهلاً بكِ مجدداً في منصة ملتجا</p>
+      </div>
+
+      <form action="#" method="POST" class="login-form">
+        <div class="form-group">
+          <label for="email">البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">كلمة المرور</label>
+          <input type="password" id="password" name="password" placeholder="••••••••" required>
+        </div>
+
+        <div class="form-options">
+          <label class="remember-me">
+            <input type="checkbox" name="remember">
+            <span>تذكرني</span>
+          </label>
+          <a href="#" class="forgot-password">نسيت كلمة المرور؟</a>
+        </div>
+
+        <button type="submit" class="submit-btn">دخول</button>
+      </form>
+
+      <div class="login-footer">
+        <p>ليس لديكِ حساب؟ <a href="join.html">سجلي مشروعكِ الآن</a></p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // تفعيل الوضع الداكن تلقائياً إذا كان مفعلاً بالصفحة الرئيسية
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('dark-mode');
+    }
+  </script>
+</body>
+</html>

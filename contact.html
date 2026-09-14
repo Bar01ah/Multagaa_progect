@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملتجأ | تواصلي معنا</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- زر الرجوع للصفحة السابقة -->
+<button type="button" class="back-btn" onclick="history.back()" aria-label="رجوع">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 12h14M12 5l7 7-7 7"/>
+  </svg>
+  <span>رجوع</span>
+</button>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-area">
+        <div class="logo-icon">م</div>
+        <div class="logo-text">
+          <h1>ملتجأ</h1>
+          <span>منصة الإبداع المنزلي اليمني</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">الرئيسية</a>
+        <a href="projects.html">المشاريع</a>
+        <a href="offers.html">العروض</a>
+        <a href="jobs.html">فرص العمل</a>
+        <a href="join.html">انضمي</a>
+        <a href="contact.html" class="active">تواصلي</a>
+      </nav>
+      <div class="header-actions">
+
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="تبديل الوضع">
+  <span id="theme-icon">🌙</span>
+  <span id="theme-text">الوضع الداكن</span>
+</button>
+
+
+        <a href="login.html" class="nav-login-btn">دخول</a>
+        <a href="join.html" class="btn-primary">سجّلي مشروعك</a>
+      </div>
+    </div>
+  </header>
+
+  <footer class="footer" style="background: none; padding-top: 3rem;">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-contact" style="grid-column: span 2;">
+          <h3 style="margin-bottom: 1.5rem; color: var(--primary-brown);">تواصلي معنا</h3>
+          <ul class="contact-info-list">
+            <li>
+              <span class="contact-icon">📧</span>
+              <div>
+                <strong>البريد الإلكتروني</strong>
+                <a href="mailto:hello@maltjaa.ye">hello@maltjaa.ye</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon">📱</span>
+              <div>
+                <strong>الهاتف / واتساب</strong>
+                <a href="tel:+96700335044">+96700335044</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>الموقع</strong>
+                <span>اب، الجمهورية اليمنية</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom" style="margin-top: 3rem;">
+        <span>© 2026 منصة ملتجأ — جميع الحقوق محفوظة</span>
+        <span>صُنع بحب في اليمن 🇾🇪</span>
+      </div>
+    </div>
+  </footer>
+<script src="main.js"></script>
+</body>
+</html>
